@@ -1,0 +1,30 @@
+{
+  "name": "medical-bills",
+  "version": "1.0.0",
+  "description": "API to manage list of bills",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/*.js",
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAngelinaaa/Software-Engineering-Internship-Assessment-Truffle-Health.git"
+  },
+  "keywords": [
+    "billing",
+    "medical",
+    "hospital",
+    "healthcare"
+  ],
+  "author": "Nafisa Anzum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliAngelinaaa/Software-Engineering-Internship-Assessment-Truffle-Health/issues"
+  },
+  "homepage": "https://github.com/AliAngelinaaa/Software-Engineering-Internship-Assessment-Truffle-Health#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
