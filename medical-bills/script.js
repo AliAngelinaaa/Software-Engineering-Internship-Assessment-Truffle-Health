@@ -21,5 +21,7 @@ app.post('/items', (req, res) => {
 
 //server start
 app.listen(PORT, () => {
-    console.log(`Server listening on PORT $(PORT)`);
+    console.log(`Server listening on PORT ${PORT}`);
 })
+
+module.exports = app;

@@ -4,7 +4,7 @@
   "description": "API to manage list of bills",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/*.js",
+    "test": "jest",
     "start": "node script.js"
   },
   "repository": {
